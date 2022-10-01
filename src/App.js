@@ -10,7 +10,7 @@ function App() {
           Welcome to Web Development 2022
         </h1>
         <h2>This is a branch for assignment 2 </h2>
-        <h2>This is a branch for assignment 3 </h3>
+        <h2>This is a branch for assignment 3 </h2>
 
         <a
           className="App-link"
