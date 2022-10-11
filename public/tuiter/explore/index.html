@@ -3,162 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
-    <link href="../styles.css" rel="stylesheet"/>
 
 </head>
 <body>
+<div class = "container pt-2 border">
+    <div class = "row">
+        <div class = "col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fab fa-twitter"></i></a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-home"></i>
+                    <span class="d-none d-xl-inline">
+                        Home
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action active">
+                    <i class="fas fa-hashtag"></i>
+                    <span class="d-none d-xl-inline">
+                        Explore
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-bell"></i>
+                    <span class="d-none d-xl-inline">
+                        Notifications
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-envelope"></i>
+                    <span class="d-none d-xl-inline">
+                        Messages
+                    </span>
+                  </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-bookmark"></i>
+                    <span class="d-none d-xl-inline">
+                        Bookmarks
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-list"></i>
+                    <span class="d-none d-xl-inline">
+                        Lists
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fas fa-user"></i>
+                    <span class="d-none d-xl-inline">
+                        Profile
+                    </span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <span class="fa-stack wd-icon-size">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="d-none d-xl-inline">
+                        More
+                    </span>
+                </a>
 
-<div class="wd-left-offset wd-right-offset wd-border">
-    <div class="wd-flex-row wd-padding-all-round ">
-        <input type="text" placeholder="Search Tuiter" class="wd-search-box wd-flex-item"/>
-        <a href="../explore-settings.html" class="wd-no-text-decoration">
-            <span class="wd-icon-gear">&#x2699;</span>
-        </a>
-    </div>
-    <div class="wd-flex-row wd-border-bottom">
-        <a href="#" class="wd-link-selected wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>For you</span>
-            <div class="wd-text-highlight"></div>
-        </a>
-        <a href="#" class="wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>Trending</span>
-        </a>
-        <a href="#" class="wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>COVID 19</span>
-        </a>
-        <a href="#" class="wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>News</span>
-        </a>
-        <a href="#" class="wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>Sports</span>
-        </a>
-        <a href="#" class="wd-no-text-decoration wd-flex-item wd-padding-all-round wd-font-size-15">
-            <span>Entertainment</span>
-        </a>
-    </div>
-    <div class="wd-flex-col">
-        <div class="wd-flex-item wd-padding-all-round">
-            <div class="wd-item-topic">
-                <span>Trending in Science</span>
             </div>
-            <div class="wd-item-title">
-                <span>Starship</span>
-            </div>
-            <div class="wd-item-tuits">
-                <span>55.5k Tuits</span>
-            </div>
+            <button type="button" class="btn btn-primary rounded-pill mt-2" style = "width:100%">
+                Tuit</button>
         </div>
-
-        <div class="wd-flex-item wd-padding-all-round">
-            <div class="wd-item-topic">
-                <span>Sports · Trending</span>
-            </div>
-            <div class="wd-item-title">
-                <span>Joe Rogan</span>
-            </div>
-            <div class="wd-item-tuits">
-                <span>5,218 Tuits</span>
-            </div>
-        </div>
-        <div class="wd-flex-item wd-padding-all-round wd-border-bottom">
-            <div class="wd-item-topic">
-                <span>Entertainment · Trending</span>
-            </div>
-            <div class="wd-item-title">
-                <span>#KGF2</span>
-            </div>
-            <div class="wd-item-tuits">
-                <span>67.8k Tuits</span>
-            </div>
-        </div>
-        <div class="wd-flex-item wd-padding-all-round wd-border-bottom">
-            <div class="wd-flex-row">
-                <div class="wd-flex-item">
-                    <div class="wd-item-topic">
-                        <span class="wd-item-author">The New York Times</span>
-                        <span> · Trending</span>
+        <div class="col-6 col-sm-10 col-md-10 col-lg-7 col-xl-6">
+            <div class="row">
+                <div class="col-11 col-sm-10 col-md-11 col-lg-11 col-xl-11">
+                    <div class="position-relative">
+                        <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
+                        <span class="position-absolute wd-search-icon"><i class="fas fa-search"></i></span>
                     </div>
-                    <div class="wd-item-title">
-                        <span>CNN's Cuomo conundrum: A star anchor with a brother in trouble</span>
-                    </div>
-                    <div class="wd-item-tuits">
-                        <span></span>
-                    </div>
+                </div>
+                <div class="col-1 col-sm-2 col-md-1 col-lg-1 col-xl-1">
+                    <i class="fas fa-cog fa-2x text-primary"></i>
                 </div>
 
-                <div>
-                    <img width="100px" height="100px" margin-right="16px"
-                         class="wd-rounded-edges"
-                         src="https://pbs.twimg.com/media/E8CPuHcVEAsJj7P?format=jpg&name=240x240"/>
-                </div>
-            </div>
-        </div>
-        <div class="wd-flex-item wd-padding-all-round wd-border-bottom">
-            <div class="wd-flex-row">
-                <div class="wd-flex-item">
-                    <div class="wd-item-topic">
-                        <span>COVID-19 · Live</span>
-                    </div>
-                    <div class="wd-item-title">
-                        <span>COVID-19 news updates for Massachusetts</span>
-                    </div>
-                    <div class="wd-item-tuits">
-                        <span></span>
-                    </div>
-                </div>
-                <div>
-                    <img width="100px" height="100px"
-                         class="wd-rounded-edges"
-                         src="https://www.uml.edu/Images/COVID-Poll-600_tcm18-325763.jpg?w=s"/>
-                </div>
-            </div>
-        </div>
-        <div class="wd-flex-item wd-padding-all-round wd-border-bottom">
-            <div class="wd-flex-row">
-                <div class="wd-flex-item">
-                    <div class="wd-item-topic">
-                        <span class="wd-item-author">Mass live</span>
-                        <span> · Yesterday</span>
-                    </div>
-                    <div class="wd-item-title">
-                        <span>Six hospitalized after SUV crash on I-95 in Foxboro Sunday</span>
-                    </div>
-                    <div class="wd-item-tuits">
-                        <span></span>
-                    </div>
-                </div>
-                <div>
-                    <img width="100px" height="100px"
-                         class="wd-rounded-edges"
-                         src="https://www.masslive.com/resizer/rvnBgHQrAvlRbY5CJrm414oONrU=/600x450/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SG2R2FXAWRALXMUJ3SEX2TU3KE.JPG"/>
-                </div>
             </div>
 
-        </div>
 
-        <div class="wd-flex-item wd-padding-all-round">
-            <div class="wd-flex-row">
-                <div class="wd-flex-item">
-                    <div class="wd-item-topic">
-                        <span>CNN Travel · Oct 22</span>
-                    </div>
-                    <div class="wd-item-title">
-                        <span>Unlocking the World: The world's most spectacular airport is about to double in size</span>
-                    </div>
-                    <div class="wd-item-tuits">
-                        <span></span>
-                    </div>
-                </div>
-                <div>
-                    <img width="100px" height="100px"
-                         class="wd-rounded-edges"
-                         src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220915013151-singapore-changi-airport-expansion.jpg"/>
-                </div>
+            <ul class="nav nav-tabs pt-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="d-none d-md-inline">
+                        Entertainment
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+            <div class="position-relative">
+            <img class="mt-2" src="../../images/Starship-Mk1-Day.jpg.webp" width="100%"/>
+                <h1 class="position-absolute bottom-0 left-0 text-white wd-left">SpaceX's Starship</h1>
             </div>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-10 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <span>
+                                    <strong>ReactJS</strong>
+                                <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="text-secondary">
+                                    -2h
+                                </span>
+
+
+                            </div>
+                            <div>
+                                <strong>React.js is a component based front end library that makes it very easy to build Single page Applications or SPAs</strong>
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                            <img src="../../images/reactjs.jpg" class="card-img-top"/>
+                        </div>
+
+                    </div>
+
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-10 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+
+                            <div>
+                                <span>
+                                    <strong>JavaScript</strong>
+                                <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="text-secondary">
+                                    -2h
+                                </span>
+
+                            </div>
+                            <div>
+                                <strong>JavaScript is programming language that can run on browsers as well as desktops</strong>
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                            <img src="../../images/js.jpg" class="card-img-top"/>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-10 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <strong>jQuery</strong>
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                            <img src="../../images/jq.jpg" class="card-img-top"/>
+                        </div>
+
+                    </div>
+
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-10 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <span>
+                                    <strong>NodeJS</strong>
+                                <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="text-secondary">
+                                    -2h
+                                </span>
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                            <img src="../../images/nodejs.jpg" class="card-img-top"/>
+                        </div>
+
+                    </div>
+
+
+                </li>
+
+            </ul>
+
+
+
+
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-none d-lg-inline">
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Who to follow</strong></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 col-xl-2">
+                            <img src="../../images/java.png" class="card-img-top rounded-circle"/>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-5 col-xl-7">
+                            <strong>Java</strong>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                @Java
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3">
+                            <button type="button" class="btn btn-primary rounded-pill me-2">
+                                Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 col-xl-2">
+                    <img src="../../images/relativity.jpg" class="card-img-top rounded-circle"/>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-5 col-xl-7">
+                            <strong>Relativity space</strong>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                @relativityspace
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3">
+                        <button type="button" class="btn btn-primary rounded-pill me-2">
+                        Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 col-xl-2">
+                            <img src="../../images/vg.jpg" class="card-img-top rounded-circle"/>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-5 col-xl-7">
+                            <strong>Virgin Galactic</strong>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                @virgingalactic
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3">
+                            <button type="button" class="btn btn-primary rounded-pill me-2">
+                                Follow</button>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 col-xl-2">
+                            <img src="../../images/NASA.jpg" class="card-img-top rounded-circle"/>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-5 col-xl-7">
+                            <strong>NASA</strong>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3">
+                            <button type="button" class="btn btn-primary rounded-pill me-2">
+                                Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 col-xl-2">
+                            <img src="../../images/teslaLogo.jpg" class="card-img-top rounded-circle"/>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-5 col-xl-7">
+                            <strong>Telsa</strong>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                @tesla
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3">
+                            <button type="button" class="btn btn-primary rounded-pill me-2">
+                                Follow</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
+
 
 </body>
 </html>

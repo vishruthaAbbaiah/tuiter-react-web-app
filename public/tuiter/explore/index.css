@@ -1,3 +1,31 @@
+.wd-icon-size {
+font-size: 0.5em;
+height: 16px;
+width: 16px;
+}
+
+.wd-gear-icon {
+color:rgb(29, 155, 240);
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-right: 12px;
+}
+
+.wd-left {
+left:10px;
+}
+
+.wd-search-icon {
+bottom: 7px;
+left:10px;
+}
+
+.wd-image {
+height:48px;
+width:48px;
+border-radius: 50px
+}
+
 .wd-text-highlight {
     background-color: rgb(29,161,242);
     max-width: 47px;
