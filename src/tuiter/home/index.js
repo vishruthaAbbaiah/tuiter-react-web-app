@@ -4,14 +4,16 @@ import NavigationSidebar from "../navigation-sidebar";
 
 import PostList from "../post";
 
-import PostSummaryList from "../post-summary-list"
+import TuitsList from "../tuits/index.js"
+import WhatsHappening from "./whats-happening";
 
 function HomeComponent() {
    return(
    <>
        <div className="row">
             <div className="col">
-                <PostList/>
+                <WhatsHappening/>
+                <TuitsList/>
 
             </div>
        </div>

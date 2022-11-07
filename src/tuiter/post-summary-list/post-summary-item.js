@@ -23,7 +23,7 @@ const PostSummaryItem = ({post, index}) => {
                          </div>
                      </div>
                      <div className="col-2 col-sm-3 col-md-2 col-lg-2 col-xl-2 align-self-center">
-                         <img src={post.image} className="card-img-top"/>
+                         <img src={post.image} className="card-img-top rounded"/>
                      </div>
 
                  </div>
