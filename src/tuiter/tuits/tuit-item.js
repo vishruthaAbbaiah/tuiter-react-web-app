@@ -14,7 +14,7 @@ const TuitItem = ({post, index}) => {
             <div className="row">
                 <div className="col-2 col-sm-1 col-md-1 col-lg-2 col-xl-1">
 
-                        <img src={post.image} className="card-img-top rounded-circle" style={{height:"50px", width:"50px"}}/>
+                        <img src={'../../images/' + post.image} className="card-img-top rounded-circle" style={{height:"50px", width:"50px"}}/>
                 </div>
 
                 <div className="col-10 col-sm-11 col-md-11 col-lg-10 col-xl-11 px-4">

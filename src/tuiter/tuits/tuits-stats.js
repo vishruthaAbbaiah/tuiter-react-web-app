@@ -34,11 +34,12 @@ const TuitsStats = ({post, index}) => {
                     const updates = {
                         ...post,
                         unlikes: post.unlikes + 1,
+                        unliked: true
 
                     };
                     dispatch(updateTuitThunk(updates));
                 }}
-                   className="bi bi-hand-thumbs-down-fill"></i>
+                   className={`${post.unliked ? "bi bi-hand-thumbs-down-fill text-primary" : "bi bi-hand-thumbs-down-fill"}`}></i>
                 <span className="p-2">{post.unlikes}</span>
             </div>
             <div className="col text-secondary">
@@ -46,8 +47,6 @@ const TuitsStats = ({post, index}) => {
 
             </div>
         </div>
-
-
 
     )
 }
